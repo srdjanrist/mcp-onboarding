@@ -34,12 +34,6 @@ export default {
 					DEFAULT: '#7E69AB',
 					foreground: 'hsl(var(--secondary-foreground))'
 				},
-				accent: {
-					peach: '#FDE1D3',
-					purple: '#D6BCFA',
-					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
-				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'
@@ -50,7 +44,9 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					peach: '#FDE1D3',
+					purple: '#D6BCFA'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',

@@ -18,6 +18,10 @@ const OnboardingComplete = ({ brandName, restart }: OnboardingCompleteProps) => 
     
     return () => clearTimeout(timer);
   }, []);
+
+  const navigateToLanding = () => {
+    window.open('https://brandmate-ai-brief.vercel.app/');
+  }
   
   return (
     <div className="animate-fade-in">
@@ -31,7 +35,7 @@ const OnboardingComplete = ({ brandName, restart }: OnboardingCompleteProps) => 
           
           <div className="flex justify-center mt-10">
             <Button
-              onClick={restart}
+              onClick={navigateToLanding}
               className="w-full max-w-xs mx-auto bg-primary hover:bg-primary/90"
             >
               Start Using Your AI Assistant
